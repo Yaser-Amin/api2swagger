@@ -16,6 +16,7 @@ program
   .option('-d, --data <data>', 'POST / PUT Data')
   .option('-H, --header <header>', 'Request Headers', collect, [])
   .option('-P, --proxy <proxy>','proxy detail - http://username:password@proxyhost:proxyport')
+  .option('-i, --input <file>', 'Swagger config file')
   .description('Generates Swagger 2.0 Spec from an API Call');
 
 program.on('--help', function(){
@@ -35,6 +36,7 @@ options.output = program.output;
 options.data = program.data;
 options.headers = program.header;
 options.proxy = program.proxy;
+options.input = program.input;
 
 
 
