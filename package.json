@@ -1,6 +1,6 @@
 {
   "name": "api2swagger-ext",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Generate Swagger 2.0 (Open API) spec from Curl like API Call.",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,9 @@
     "request": "^2.67.0"
   },
   "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.0",
     "gulp-util": "^3.0.8"
   }
 }
